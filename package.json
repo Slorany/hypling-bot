@@ -1,0 +1,30 @@
+{
+  "name": "hypling",
+  "version": "1.0.0",
+  "description": "A discord bot with discord.js, aimed at helping with worldbuilding and conlanging",
+  "main": "hypling.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "run": "node hypling.js"
+  },
+  "keywords": [
+    "hypling",
+    "bot"
+  ],
+  "author": "Slorany",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "moment": "^2.19.1",
+    "ms": "^2.0.0",
+    "mysql": "^2.15.0",
+    "return-deep-diff": "^0.2.9",
+    "snoowrap": "^1.15.2",
+    "twit": "^2.2.9"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  }
+}
